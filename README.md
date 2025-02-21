@@ -1,6 +1,9 @@
-# PowerLink
-Google /Firebase acc:ee3070powerlink@gmail.com
+# Google /Firebase 
+acc: ee3070powerlink@gmail.com
+<br>
 pass: *powerlinkEE3070
 
-website acc: ee3070powerlink@gmail.com
+# PowerLink website: 
+acc: ee3070powerlink@gmail.com
+<br>
 pass: ee3070
