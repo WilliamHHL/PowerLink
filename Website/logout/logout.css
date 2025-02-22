@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+:root {
+    --primary-color: #2F4F4F;
+    --secondary-color: #3CB371;
+    --accent-color: #20B2AA;
+    --background: #F8F9FA;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.metric-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-3px);
+}
+
+.metric-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: -15px;
+}
+
+.metric-header i {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-right: 1rem;
+}
