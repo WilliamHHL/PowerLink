@@ -1,0 +1,208 @@
+body {
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+.card {
+    margin: 100px auto;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px #00000029;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 70%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-weight: bold;
+    margin: 0px 0px 5px 0px;
+    font-size: 16pt;
+}
+
+.card p.price {
+    font-weight: normal;
+    color: #a5a5a5;
+    margin: 0px 0px 20px 0px;
+    font-size: 12pt;
+}
+
+.card button {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    background-color: #3e7dff;
+    border: none;
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 8pt;
+    cursor: pointer;
+}
+
+:root {
+    --primary-color: #2F4F4F;
+    --secondary-color: #3CB371;
+    --accent-color: #20B2AA;
+    --background: #F8F9FA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--background);
+    min-height: 100vh;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    position: relative;
+    overflow: hidden;
+}
+
+.auth-container::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(45deg, var(--accent-color), transparent);
+    border-radius: 50%;
+    top: -20%;
+    right: -10%;
+    opacity: 0.1;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    height: 473px;
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.login-card:hover {
+    transform: translateY(-5px);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logo i {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.logo h1 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.input-group i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--accent-color);
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 20px 12px 40px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.reset {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reset a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.reset a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.reset a:active {
+    color: #2c3e50;
+}
+
+.reset a:focus {
+    outline: none;
+    text-decoration: underline;
+}
+
+button:hover {
+    background: var(--primary-color);
+}
+
+.dashboard {
+    display: none;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+}
