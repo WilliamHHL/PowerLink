@@ -149,6 +149,17 @@ body {
     border-color: var(--accent-color);
 }
 
+.password-group {
+    display: flex;
+    position: relative;
+    align-items:center;
+}
+
+.password-group i {
+    left: 285px;
+    top: -24px;
+}
+
 button {
     width: 100%;
     padding: 12px;
