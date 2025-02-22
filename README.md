@@ -1,4 +1,4 @@
-# Start from Path: ../login/PowerLink.html
+# Start from Path: Website/login/PowerLink.html
 
 # Google /Firebase 
 Acc: ee3070powerlink@gmail.com
